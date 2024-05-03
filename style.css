@@ -327,22 +327,22 @@ img{
     overflow: hidden;
 }
 .project-card:nth-child(1){
-    background-image: url("assets/fresh-start.jpg");
+    background-image: url("fresh-start.jpg");
 }
 .project-card:nth-child(2){
-    background-image: url(assets/color-world.jpg);
+    background-image: url(color-world.jpg);
 }
 .project-card:nth-child(3){
-    background-image: url(assets/follow-base.jpg);
+    background-image: url(follow-base.jpg);
 }
 .project-card:nth-child(4){
-    background-image: url(assets/multi-color.jpg);
+    background-image: url(multi-color.jpg);
 }
 .project-card:nth-child(5){
-    background-image: url(assets/work-hard.jpg);
+    background-image: url(work-hard.jpg);
 }
 .project-card:nth-child(6){
-    background-image: url(assets/power-to-design.jpg);
+    background-image: url(power-to-design.jpg);
 }
 .project-card:hover{
     transform: translateY(-10px);
