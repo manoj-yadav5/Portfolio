@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio site</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-----nav bar -------->
+    <header class="bg-light-pink">
+        <nav class="navbar">
+            <div class="logo">MY.</div>
+            <ul class="navlist" id="navlist">
+                <li><a href="#home" class="active navlinks">Home</a>
+                </li>
+                <li><a href="#into" class="navlinks">My Intro</a>
+                </li>
+                <li><a href="#services" class="navlinks">Services</a>
+                </li>
+                <li><a href="#project" class="navlinks">Projects</a>
+                </li>
+                <li><a href="#Testnomial" class="navlinks">Testnomial</a>
+                </li>
+                <li><a href="#hire" class="primary-btn m-mobile">Hire me</a>
+                </li> 
+            </ul>
+            <div class="hamberger" id="hamberger"><i class="fa-solid fa-bars"></i></div>
+        </nav>
+    </header>
+    <main>
+        <!---hero section------->
+        <section class="hero-section bg-grey">
+            <div class="container">
+                <div class="row-container">
+                    <div class="content mobile-margin">
+                        <h3>Hello!</h3>
+                        <h1>I am Manoj Yadav</h1>
+                        <h2>Developer</h2>
+                        <p>I’m working professional with having experience of 2.4+ years in Software Development industry. I have work experience on
+                            Build Project and BAU Projects related using some technology AEM, HTML, CSS, JavaScript, and ensuring cross-browser
+                            compatibility.</p>
+                        <div class="action">
+                            <a href="assets/Manoj's_resume.pdf" class="primary-btn" download>Download CV</a>
+                            <a href="#into" class="primary-btn" data-type="inverted-btn">Contact Me</a>
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <img src="assets/boy.png" alt="User pic">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------skill section------->
+        <section class="section bg-light-pink">
+            <div class="container">
+                <div class="column-container">
+                    <div class="content">
+                        <h3>Why Choose Me</h3>
+                        <h1>My Skills</h1>
+                    </div>
+                    <div class="skill-container">
+                        <div class="skil-bar-container">
+                            <div class="info">
+                                <small>HTML</small>
+                                <small>80%</small>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-bar html"></div>
+                            </div>
+                        </div>
+                        <div class="skil-bar-container">
+                            <div class="info">
+                                <small>Bootstrap</small>
+                                <small>60%</small>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-bar bootstrap"></div>
+                            </div>
+                        </div>
+                        <div class="skil-bar-container">
+                            <div class="info">
+                                <small>CSS</small>
+                                <small>95%</small>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-bar css"></div>
+                            </div>
+                        </div>
+                        <div class="skil-bar-container">
+                            <div class="info">
+                                <small>JavaScript</small>
+                                <small>78%</small>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-bar java-script"></div>
+                            </div>
+                        </div>
+                        <div class="skil-bar-container">
+                            <div class="info">
+                                <small>React</small>
+                                <small>40%</small>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-bar react"></div>
+                            </div>
+                        </div>
+                        <div class="skil-bar-container">
+                            <div class="info">
+                                <small>AEM Authoring</small>
+                                <small>87%</small>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-bar aem"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------about Me section------>
+        <section id="into" class="section bg-white">
+            <div class="container">
+                <div class="row-container">
+                    <div class="image-container" data-type="inverted-img">
+                        <img src="assets/boy.png" alt="user">
+                    </div>
+                    <div class="content">
+                        <h3 class="text-center">My Intro</h3>
+                        <h1 class="text-center">About me</h1>
+                        <p class="text-center">I’m working professional with having experience of 2.4+ years in Software Development industry. I have work experience on
+                            Build Project and BAU Projects related using some technology AEM, HTML, CSS, JavaScript, and ensuring cross-browser
+                            compatibility.</p>
+                        <ul class="information">
+                            <li class="detail"><i class="fa-solid fa-user fill-pink"></i>
+                                Name<span class="margin-line">:&nbsp;&nbsp;Manoj Yadav</span>
+                            </li>
+                            <li class="detail"><i class="fa-solid fa-phone fill-pink"></i>
+                                Phone<span class="margin-line">:&nbsp;&nbsp;9651604170</span>
+                            </li>
+                            <li class="detail"><i class="fa-solid fa-envelope fill-pink"></i>
+                                Email &nbsp;&nbsp;&nbsp;     :&nbsp;&nbsp;   manoj.yadav1721it@gmail.com
+                            </li>
+                        </ul>
+                        <h4>My Interest</h4>
+                        <ul class="interest">
+                            <li><i class="fa-solid fa-futbol fill-pink"></i>Football</li>
+                            <li><i class="fa-solid fa-music fill-pink"></i>Music</li>
+                            <li><i class="fa-solid fa-palette fill-pink"></i>Art</li>
+                            <li><i class="fa-solid fa-map fill-pink"></i>Travel</li>
+                            <li><i class="fa-solid fa-book-open fill-pink"></i>Reading</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------Services section--------->
+        <section id="services" class="section bg-grey">
+            <div class="container">
+                <div class="column-container">
+                    <div class="content">
+                        <h3>Services</h3>
+                        <h1>What I offer</h1>
+                    </div>
+                    <div class="grid-card-container">
+                        <div class="card">
+                            <i class="fa-solid fa-file fill-white" data-type="card-icons"></i>
+                            <h4>SEO</h4>
+                            <p class="para">I offer a comprehensive range of skills that enable businesses to optimize their online presence and attract more organic traffic. With my expertise in keyword research, on-page and off-page optimization, technical SEO, link building, and analytics, I can help businesses improve their search engine rankings, increase their visibility,</p>
+                        </div>
+                        <div class="card">
+                            <i class="fa-solid fa-lightbulb fill-white" data-type="card-icons"></i>
+                            <h4>Web Design</h4>
+                            <p class="para">I offer a diverse skill set that empowers businesses to create visually appealing and interactive web applications. 
+                                I can help businesses build responsive, user-friendly interfaces that enhance the overall user experience. By focusing on clean code,
+                                performance optimization, and cross-browser compatibility.</p>
+                        </div>
+                       <!--- <div class="card">
+                            <i class="fa-solid fa-image fill-white" data-type="card-icons"></i>
+                            <h4>Graphic Design</h4>
+                            <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora sapiente sequi ipsum, nam delectus, quae vel enim eos ex dolorum repellendus exercitationem minima, nostrum distinctio facilis nemo ad quibusdam reprehenderit.</p>
+                        </div>  -->
+                        <div class="card">
+                            <i class="fa-solid fa-coins fill-white" data-type="card-icons"></i>
+                            <h4>AEM 6.5</h4>
+                            <p class="para">Enable businesses to build and manage their web presence effectively. 
+                                I am proficient in practical content authoring skills, including author basics, DAM, navigation, templates, 
+                                components, creating and editing pages, content and experience fragments, workflows, dispatcher, and more.</p>
+                        </div>
+                       <!--- <div class="card">
+                            <i class="fa-solid fa-desktop fill-white" data-type="card-icons"></i>
+                            <h4>Web Design</h4>
+                            <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora sapiente sequi ipsum, nam delectus, quae vel enim eos ex dolorum repellendus exercitationem minima, nostrum distinctio facilis nemo ad quibusdam reprehenderit.</p>
+                        </div> 
+                        <div class="card">
+                            <i class="fa-solid fa-ribbon fill-white" data-type="card-icons"></i>
+                            <h4>Branding</h4>
+                            <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora sapiente sequi ipsum, nam delectus, quae vel enim eos ex dolorum repellendus exercitationem minima, nostrum distinctio facilis nemo ad quibusdam reprehenderit.</p>
+                        </div>  --->
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-----portfolio section------>
+        <section id="project" class="section bg-white">
+            <div class="container">
+                <div class="column-container">
+                    <div class="content">
+                        <h3>My Projects</h3>
+                        <h1>Recent work</h1>
+                    </div>
+                    <div class="grid-card-container">
+                        <div class="project-card"><a href="#" class="primary-btn demo">View Project</a></div>
+                        <div class="project-card"><a href="#" class="primary-btn demo">View Project</a></div>
+                        <div class="project-card"><a href="#" class="primary-btn demo">View Project</a></div>
+                        <div class="project-card"><a href="#" class="primary-btn demo">View Project</a></div>
+                        <div class="project-card"><a href="#" class="primary-btn demo">View Project</a></div>
+                        <div class="project-card"><a href="#" class="primary-btn demo">View Project</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------work together- section----->
+        <section  class="project-section bg-dark-pink">
+            <div class="container">
+                <div class="project-content">
+                    <h2 class="fill-white">Let's work together on your next project</h2>
+                    <p class="fill-light-pink para">I am excited to work together with you to achieve your business goals and deliver exceptional results. By combining our expertise and collaborating closely, we can create innovative solutions that meet your unique needs and exceed your expectations.</p>
+                    <a href="#" class="primary-btn" data-type="white-btn">Contact</a>
+                </div>
+            </div>
+        </section>
+        <!------testimonial---section----->
+        <section id="Testnomial" class="section bg-grey">
+            <div class="container">
+                <div class="column-container">
+                    <div class="content">
+                        <h3>Testnomial</h3>
+                        <h1>Client feedback</h1>
+                        <h3>Coming soon...</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------Contact us section--------->
+        <section class="section bg-white">
+            <div class="container">
+                <div class="column-container">
+                    <div class="content">
+                        <h3>Contact Us</h3>
+                        <h1>Get in Touch</h1>
+                    </div>
+                    <form action="" class="form">
+                        <input type="text" placeholder="Username" required>
+                        <input type="number" name="" id="" placeholder="Phone Number" required>
+                        <input type="email" placeholder="Email Address" required>
+                        <textarea name="" id="" cols="30" rows="6" placeholder="type your comment here..." required></textarea>
+                        <input type="submit" value="Send Message" class="primary-btn">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-------footer section----->
+    <footer class="footer-section bg-black">
+        <div class="container">
+            <p class="para fill-white">Copyright &copy;2024 All rights reserved by <b>MY.</b></p>
+        </div>
+    </footer>
+    
+</body>
+</html>
